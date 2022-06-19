@@ -45,5 +45,9 @@ $contractor = new stdClass;
 $contractor->Name = 'Terry';
 $contractor->Password = 'terry123';
 $contractors[] = $contractor;
+$contractor = new stdClass;
+$contractor->Name = 'rseyum';
+$contractor->Password = 'admin123';
+$contractors[] = $contractor;
 
 ?>
