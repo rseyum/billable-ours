@@ -16,14 +16,6 @@ class LoginForm extends WebTestCase {
 
 		$this->assertResponse(200);
 		$this->assertText("Welcome, John");
-		   
-		  
-		  $this->setField("name", "rseyum"); 
-		$this->setField("password", "admin123");
-		$this->clickSubmit("Login");
-
-		$this->assertResponse(200);
-		$this->assertText("Welcome, Rahel");
 	}
 	
  	 function testFailedPassword() {
